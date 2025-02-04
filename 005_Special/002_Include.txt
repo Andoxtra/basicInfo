@@ -1,0 +1,11 @@
+Ein Include wird genutzt um bereits geschriebenen Code in einer anderen Datei zu nutzen. 
+
+Code Beispiel
+############
+#include <iostream>
+
+int main(){
+	std::cout << "Works";
+	
+	return 0;
+}

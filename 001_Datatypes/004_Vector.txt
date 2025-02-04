@@ -1,0 +1,39 @@
+Ein Vektor ist eine in der Größe anpassbare Liste.
+Jeder Vektor kann nur von einer Art von Datentyp Informationen speichern.
+
+Code Beispiel
+############
+
+Erstellung von Vektor
+===============
+#include <vector>
+
+int main(){
+	std::vector<char> characters = {'A', 'B', 'C'};
+	return 0;
+}
+
+
+Ausgabe von ersten Element in Vektor
+==========================
+#include <iostream>
+#include <vector>
+
+int main(){
+	std::vector<char> characters = {'A', 'B', 'C'};
+	std::cout << characters[0];
+	return 0;
+}
+
+Ausgabe aller Elemente von Vektor
+========================
+#include <iostream>
+#include <vector>
+
+int main(){
+	std::vector<char> characters = {'A', 'B', 'C'};
+	for(char character : characters){
+		std::cout << character;
+	}
+	return 0;
+}

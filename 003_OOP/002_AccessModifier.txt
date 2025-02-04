@@ -1,0 +1,27 @@
+Um Zugriffe auf Methoden und Variablen einer Klasse/ Objektes zu verwalten,
+gibt es sogenannte Zugriffsmodifikatoren.
+Diese legen fest wer auf welche Methoden oder Variablen zugreifen darf.
+
+Code Beispiel
+############
+
+Code Beispiel
+############
+#include <iostream>
+
+class Person {
+public:
+    void sayAge();
+private:
+	int age = 18;
+};
+
+void Person::sayAge(){
+    std::cout << "My age is " << Person::age;
+}
+
+int main(){
+    Person* Tom = new Person();
+	Tom->sayAge();
+    return 0;
+}

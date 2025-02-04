@@ -1,0 +1,17 @@
+Um einer Funktion Informationen mitzugeben,
+besteht die Möglichkeit sogenannte Parameter zu nutzen.
+
+Code Beispiel
+############
+#include <iostream>
+
+void printChar(char){
+		std::cout << char << "\n";
+}
+
+int main(){
+	printChar('A');
+	printChar('B');
+	
+	return 0;
+}

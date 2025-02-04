@@ -1,0 +1,25 @@
+Ein Tuple ist eine Liste welche eine feste Länge besitzt.
+Jedoch können mehere unterschiedliche Datentypen sich in dieser Liste befinden.
+
+Code Beispiel
+############
+
+Erstellung von Tuple
+============== 
+#include <tuple>
+
+int main(){
+	std::tuple<int, char, int> mixedTuple = {10, 'B', 20};
+	return 0;
+}
+
+Ausgabe von ersten Element in Tuple
+==========================
+#include <iostream>
+#include <tuple>
+
+int main(){
+	std::tuple<int, char, int> mixedTuple = {10, 'B', 20};
+	std::cout << std::get<0>(mixedTuple);
+	return 0;
+}

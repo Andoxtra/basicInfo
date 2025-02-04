@@ -1,0 +1,12 @@
+Projekt
+##############
+1. Git Bash öffnen
+	=> git clone https://github.com/Andoxtra/Weather_Station.git
+
+Git Remote Branches anzeigen
+	=> git branch -r
+
+Git remote Branches Daten in lokaeln Branch einfügen
+	=> git pull origin <branch_Namen>
+	=> :qa bei Merge Conflict eingeben und mit Enter bestätigen
+	

@@ -1,0 +1,32 @@
+Ein Pair ist ein Datentyp um zwei womöglich unterschiedliche Datentypen,
+als einzelnes Objekt abzuspeichern.
+
+Code Beispiel
+############
+
+Erstellung von Pair
+===============
+int main(){
+	std::pair<char, int> mixedPair = {'A', 10};
+	return 0;
+}
+
+Ausgabe von ersten Element von Pair
+==========================
+#include <iostream>
+
+int main(){
+	std::pair<char, int> mixedPair = {'A', 10};
+	std::cout << mixedPair.first;
+	return 0;
+}
+
+Ausgabe von letzten Element von Pair
+==========================
+#include <iostream>
+
+int main(){
+	std::pair<char, int> mixedPair = {'A', 10};
+	std::cout << mixedPair.second;
+	return 0;
+}

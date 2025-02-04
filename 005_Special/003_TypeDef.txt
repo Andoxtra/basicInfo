@@ -1,0 +1,15 @@
+Ein TypeDef ist eine Möglichkeit, um eine unübersichtliche Kombination von Datentypen leserlich zu gestalten.
+
+Code Beispiel
+############
+
+#include <vector>
+
+typedef std::vector<int> intVector;
+typedef std::vector<char> charVector;
+typedef std::pair<intVector, charVector> intCharPair;
+
+int main(){
+	intCharPair data = {{1,2,3},{'A', 'B', 'C'}};
+	return 0;
+}

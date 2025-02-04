@@ -1,0 +1,12 @@
+Ein Float ist ein Datentyp welcher Fließkommazahlen speichern kann.
+
+float => 32Bit => 2**32 Möglichkeiten
+
+Bei einem Float muss immer gewisse Abstriche machen z.B.
+=> große Zahl geringe Präzision
+=> kleine Zahl, hohe Präzision
+
+Code Beispiel
+############
+
+float decimalNumber = 1.23323;

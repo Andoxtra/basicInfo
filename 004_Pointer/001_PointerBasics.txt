@@ -1,0 +1,21 @@
+Pointer sind Verweise auf eine Stelle im Speicher. 
+Somit kann man Objekte nutzen ohne diese zu kopieren.
+
+Das "&" Zeichen gibt die Adresse des Objektes/ Variable an.
+Um eine Adresse in einer Variable zu speichern, setzt man nach dem Datentyp ein "*".
+Wenn man den Wert von einer Adresse haben möchte nutzt man vor der Adresse dieses Zeichen "*".
+
+Code Beispiel
+############
+#include <iostream>
+
+int main(){
+	int A = 10;
+	std::cout << A << "\n";
+	std::cout << &A << "\n";
+	int* adressFromA = &A;
+	std::cout << adressFromA << "\n"; 
+	std::cout << *adressFromA << "\n";
+	
+	return 0;
+}

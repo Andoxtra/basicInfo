@@ -1,0 +1,23 @@
+Wenn eine Funktion für einen Parameter verschiedene Datentypen erhalten soll,
+kann man jene Funktion überladen. 
+Somit je nach Datentyp eine andere Funktion genutzt werden kann.
+
+Code Beispiel
+############
+#include <iostream>
+	
+float add(float firstFloat, float secondFloat){
+	return firstFloat + secondFloat;
+}
+	
+int add(int fistInt, int secondInt){
+	return firstInt + secondInt;	
+}
+
+int main(){
+
+	std::cout << add(1,2);
+	std::cout << add(1.2, 2.3);
+	
+	return 0;
+}

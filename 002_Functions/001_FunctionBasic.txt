@@ -1,0 +1,18 @@
+Mit einer Funktion erhält man die Möglichkeit Code wiederverwendbar zu machen. 
+
+Code Beispiel
+############
+#include <iostream>
+
+void printBAndA(){
+	std::cout << 'B\n';
+	std::cout << 'A\n';
+}
+
+int main(){
+	printA();
+	printA();
+	printA();
+	
+	return 0;
+}

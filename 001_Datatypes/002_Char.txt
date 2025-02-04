@@ -1,0 +1,10 @@
+Ein Char ist ein Datentyp welcher einzelne Buchstaben, Zahlen und gewisse Sonderzeichen speichern kann.
+
+char => 8Bit => 2**8 Möglichkeiten
+
+Code Beispiel
+############
+
+char characterCharacter = 'A';
+char characterNumber = '1';
+char characterSpecialCharacter = '#';

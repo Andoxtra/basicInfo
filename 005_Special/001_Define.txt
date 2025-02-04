@@ -1,0 +1,15 @@
+Ein Define ist wie Platzhalter, 
+sobald das Programm gestartet wird, 
+wird überall dort wo ein Define genutzt wurde,
+der hinterlegte Wert eingefügt.
+
+Code Beispiel
+############
+#include <iostream>
+#define NUMBER_TEN 10
+
+int main(){
+	std::cout << a << "\n";
+	
+	return 0;
+}

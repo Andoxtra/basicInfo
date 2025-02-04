@@ -1,0 +1,30 @@
+Ein Integer ist ein Datentyp welcher Ganzzahlen speichern kann.
+
+Es gibt drei verschiedene Größen eines Integers.
+
+Kleine Integer     => 16Bit => 2**16 Möglichkeiten
+Normale Integer => 32Bit => 2**32 Möglichkeiten
+Großer Integer    => 64Bit => 2**64 Möglichkeiten
+
+Zusätzlich gibt es die Keywords:
+
+unsigned => Nur Ganzzahlen im postiven Bereich
+signed => Ganzzahlen können positive wie negative Werte annehmen
+
+Unterschiede zwischen unsigned und signed sind folgende:
+unsigned => Alle Bits können um die Zahl abzuspeichern genutzt werden
+signed => Das erste Bit wirde genutzt um das Vorzeichen abzuspeichern
+
+Somit kann man in einem unsigned Integer eine doppelt so große Zahl speichern,
+wie in einem signed Integer.
+
+Code Beispiel
+############
+
+int normalInt  = 0;
+short int smallInt = 1;
+long int bigInt = 2;
+
+unsigned int onlyPositiveInt = 100;
+signed int negativeAndPositiveInt = -100;
+ 

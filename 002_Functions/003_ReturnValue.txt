@@ -1,0 +1,21 @@
+Um Ergebnisse einer Funktion zu erhalten,
+besteht die Möglichkeit  den sogenannten Rückgabewert zu nutzen.
+
+Wenn die Funktion z.B. einen int zurückliefert, muss diese Funktion mit int gekennzeichnet werden.
+Bei keinem Rückgabewert nutzt man den Typ void.
+
+Code Beispiel
+############
+#include <iostream>
+
+int add(int firstInt, int secondInt){
+	int sum = firstInt + secondInt;
+	return sum;
+}
+
+int main(){
+	int sumFromFunc = add(1,2);
+	std::cout << sumFromFunc;
+	
+	return 0;
+}
